@@ -10,5 +10,5 @@ numeros_pares = filter(es_par, numeros) # Filter ejecuta la función para cada e
 print(list(numeros_pares)) # Muestra la lista con los números pares
 
 numeros_pares = filter(lambda numero : numero % 2 == 0, numeros) # Usando lambda
-print(numeros_pares)
+print(list(numeros_pares))
 print(multiplicar_por_dos(2))
