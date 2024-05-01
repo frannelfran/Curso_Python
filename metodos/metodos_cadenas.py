@@ -23,7 +23,7 @@ empieza_con = cadena1.startswith("H") # Devuelve True si la cadena empieza con e
 
 remplazar = cadena1.replace("Franco", "Juan") # Remplaza una cadena por otra
 
-cadena_separada = cadena1.split("o") # Reparar cadenas con la cadena que le pasemos
+cadena_separada = cadena1.split("o") # Separar cadenas con la cadena que le pasemos
 
 print(es_numerico)
 print(es_alfanumerico)
